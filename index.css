@@ -5,7 +5,6 @@ body{
     a:link{
         color: brgb(233, 233, 243);
         text-decoration: none;
-        text-align: center;
     }
     a:visited {
         color: rgb(151, 234, 27);
