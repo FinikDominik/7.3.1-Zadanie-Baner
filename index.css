@@ -1,0 +1,139 @@
+body{
+    margin: 0 auto;
+    background-color: white;
+    }
+    a:link{
+        color: brgb(233, 233, 243);
+        text-decoration: none;
+        text-align: center;
+    }
+    a:visited {
+        color: rgb(151, 234, 27);
+        text-decoration: none;
+    }
+    a:hover {
+        color: red;
+        text-decoration: underline;
+    }
+    a:active {
+        color: yellow;
+        text-decoration: underline;
+    }
+    header{
+        
+        background-color: rgb(83, 89, 248);
+        display: block;
+        text-align: left;
+        margin: 3px;
+        height: 60px;
+        width: 100%;
+    }
+    .headerbutton{
+        background-color: #2997b0;
+        border: 2px;
+        color: white;
+        box-sizing: border-box;
+        height: 50px;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        margin-left: 2px;
+        margin-right: 2px;
+        cursor: pointer;
+    }
+    h1, p{
+        margin-left: 7px;
+    }
+    .baner{
+        background-image: url(oblachnyy-atlas-cloud-atlas-2423.jpg);
+        width: 100%;
+        height: 800px;
+        margin: 0%;
+        background-color: #464646;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+    .nadpisbaner{
+        color: rgb(83, 89, 248);
+        font-size: 100px;
+        font-variant: small-caps;
+        font-family: 'Berkshire Swash', cursive; 
+        text-align: center;
+        margin: 0%;
+        padding-bottom: 53px;
+        text-shadow: 7px 6px #0c0d62b5
+        
+    }
+    .banertext{
+        font-family: 'Berkshire Swash', cursive; 
+        width: 1000px;
+        text-align: justify;
+        line-height: 35px;
+        color: rgb(251, 251, 251);
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto; 
+        background: rgb(17, 15, 15); 
+        background: rgba(26, 23, 23, 0.5);
+    }
+    .banertextocenenia{
+        font-family: 'Berkshire Swash', cursive; 
+        width: 330px;
+        font-size: 20px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto; 
+        background: rgb(17, 15, 15); 
+        background: rgba(26, 23, 23, 0.5);
+    }
+    #Tomhenkscitat{
+        font-family: 'Berkshire Swash', cursive; 
+        width: 670px;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        margin-top: 53px;
+        margin-left: auto;
+        margin-right: auto; 
+        background: rgb(17, 15, 15); 
+        background: rgba(26, 23, 23, 0.5);
+    }
+    #banertextheader{
+        text-align: center;
+    }
+    .baner2{
+        background-image: url(dongmakgol.jpg);
+        width: 100%;
+        height: 1000px;
+        margin: 0%;
+        background-color: #464646;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .baner3{
+        background-image: url(samsara.jpg);
+        width: 100%;
+        height: 1000px;
+        margin: 0%;
+        background-color: #464646;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    article > h1{
+        text-align: center;
+    }
+    article > p{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }

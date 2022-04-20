@@ -1,0 +1,96 @@
+body{
+    margin: 0 auto;
+    background-color: white;
+}
+th{
+    background-color: rgb(251, 56, 56); ;border-color: rgb(8, 5, 23); text-decoration-line: underline; text-transform: uppercase
+}
+table{
+    border-style: solid; border-color: black; border-collapse: collapse; text-align: center; width: 800px; height: 500px; margin-top: 30px; border: 3px;
+}
+tr{
+    background-color: bisque;
+}
+tr:nth-child(2n){
+    background-color: rgb(240, 240, 235);
+}
+.poradie{
+    text-align: right;
+}
+.n92{
+    color: rgba(122, 185, 60, 0.856);
+}
+img{
+    display: block; width: 400px; height: 500px; margin-right: 30px; float: left;
+}
+p{
+    margin-top: 50px;margin-left: 20px; font-size: larger; width: 300px; float: left; 
+}
+.menu{
+    font-size: larger; margin-block-start: 2em;margin-block-end: 2em;color: rgb(71, 30, 174);
+}
+a:link{
+    color: rgb(233, 233, 243);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(151, 234, 27);
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    text-decoration: underline;
+}
+audio{
+    float: right;
+    margin-top: 3px;
+}
+header{
+    background-color: rgb(83, 89, 248);
+    display: block;
+    text-align: left;
+    margin: 3px;
+    height: 60px;
+    width: 100%;
+}
+.headerbutton{
+    background-color: #2997b0;
+    border: 2px;
+    color: white;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+img,h2, table{
+    margin-left: 7px;
+}
+.Shawshankpicture{
+    float: left; 
+    box-sizing: border-box;
+    display: block; 
+    margin-left: 7px;
+}
+main{
+    display: block;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption{
+    margin-left: 10px;
+}
+img::before {
+    content: "hello";
+  }
