@@ -175,12 +175,12 @@ body{
         box-shadow: 6.3px -6.3px 5px rgb(0 0 194), -6.3px 6.3px 5px rgb(0 0 194);        
     }
     #Ban1Link{
+        display: block;
         text-align: center;
         margin-top: 3px;
         color: whitesmoke;
         font-family: 'Berkshire Swash', cursive; 
         font-size: 34px;
-        margin-left: 31px;    
     }
     #Ban1Link:link{
         color: rgb(233, 233, 243);
