@@ -161,7 +161,7 @@ body{
         height: 45px;
         position: relative;
         left: 8px;
-        top: 8px;
+        top: 6px;
         border-radius: 6px;
         background-color: #2997b0;
         background-image: linear-gradient(45deg, rgb(29, 68, 126), rgb(64, 199, 206));
@@ -171,7 +171,7 @@ body{
         background-image: linear-gradient(45deg, rgb(64, 199, 206), rgb(29, 68, 126));
     }
     .button-hlavny:hover, .button-hlavny:focus {
-        background-color:rgb(14, 246, 80); 
+        background-color:rgb(240 245 242); 
         box-shadow: 6.3px -6.3px 5px rgb(0 0 194), -6.3px 6.3px 5px rgb(0 0 194);        
     }
     #Ban1Link{
